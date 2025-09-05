@@ -76,10 +76,9 @@ img {
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
-.nav-item {
-  padding: 24px 0;
-}
+
 .nav-link {
+  padding: 24px 0;
   display: block;
   font-weight: 500;
   font-size: 16px;
@@ -291,8 +290,8 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  column-gap: 24px;
   row-gap: 48px;
-  gap: 24px;
   max-width: 1128px;
   list-style: none;
   padding: 0;
@@ -311,6 +310,7 @@ img {
   margin-bottom: 8px;
 }
 .portfolio-img-name {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
